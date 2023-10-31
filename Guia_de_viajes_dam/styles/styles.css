@@ -1,6 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 #menu {
@@ -44,8 +43,8 @@ h2 {
 }
 
 
-h2 span:hover {
-    color: rgba(94, 255, 156, 0.979);
+h2 span {
+    color: rgba(55, 220, 123, 0.98);
     font-size: 42px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -87,9 +86,7 @@ h3 {
 }
 
 ul li {
-    margin: 10px;
-    padding: 20px;
-    width: 500px;
+    width: 550px;
 }
 
 .cursivo {
@@ -200,16 +197,19 @@ th:last-child {
 
 
 #cabecera {
-    width: 1000px;
+    width: 950px;
     height: auto;
+    padding: 12px;
     overflow: hidden;
     border: 3px solid #dae5f0;
+    margin: 0;
 }
 
 #info{
     margin-top: 25px;
     width: auto;
     max-width: 70%;
+    min-width: 900px;
     position: relative;
     left: 15%;
     bottom: 0;
@@ -220,17 +220,22 @@ th:last-child {
 #x, #github{
     width: 39px;
     height: 39px;
-    padding: 9px;
+    padding: 10px;
     overflow: hidden;
 }
 
 #yo{
     display: block;
-    width: 85%;
+    width: 79%;
     float: left;
     padding: 10px;
+
 }
 
 #enlaces li{
     padding: 5px;
+}
+
+#verified {
+    float: left;
 }
