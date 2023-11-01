@@ -102,7 +102,8 @@ ul li {
 
 .cuerpo {
     margin: 0 auto;
-    width: 65%;
+    width: 60%;
+    max-width: 100%;
 }
 
 .foto-helsinki {
@@ -145,7 +146,7 @@ img:hover {
 
 #images {
     position: relative;
-    left: 6%;
+    left: 12%;
     width: 793px;
     height: 515px;
 }
@@ -238,4 +239,12 @@ th:last-child {
 
 #verified {
     float: left;
+}
+
+@media screen and (max-width: 600px) {
+    /* Estilos para dispositivos móviles */
+    .cuerpo {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
