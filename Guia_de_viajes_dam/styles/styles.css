@@ -102,7 +102,7 @@ ul li {
 
 .cuerpo {
     margin: 0 auto;
-    width: 60%;
+    width: 62%;
     max-width: 100%;
 }
 
@@ -146,14 +146,15 @@ img:hover {
 
 #images {
     position: relative;
-    left: 12%;
+    margin: auto;
     width: 793px;
     height: 515px;
+    padding-top: 20px;
 }
 
 #temp {
     border-collapse: collapse;
-    width: 30vw;
+    width: 40vw;
     border: none;
 }
 
@@ -210,9 +211,9 @@ th:last-child {
     margin-top: 25px;
     width: auto;
     max-width: 70%;
-    min-width: 900px;
+    min-width: 950px;
     position: relative;
-    left: 15%;
+    left: 17%;
     bottom: 0;
     padding: 10px;
     background-color: #d4dfec;
@@ -229,8 +230,9 @@ th:last-child {
     display: block;
     width: 79%;
     float: left;
-    padding: 10px;
-
+    padding-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #enlaces li{
@@ -242,9 +244,23 @@ th:last-child {
 }
 
 @media screen and (max-width: 600px) {
-    /* Estilos para dispositivos móviles */
+    /* Estilos para que se vea bien en dispositivos móviles */
     .cuerpo {
         margin: 0 auto;
         width: 100%;
     }
+
+    #info{
+        left: 3%;
+    }
+}
+
+#puntos-interes ul li {
+    margin: 15px;
+    padding: 15px;
+
+}
+
+#puntos-interes {
+    text-align: justify;
 }
