@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: hwb(235 88% 8%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    margin: 0;
+    background-color: hwb(235 20% 70%);
+    color: white;
+    font-size: 50px;
+}
+
+section#escritorio{
+    position: absolute;
+    top:5rem;
+    left: 10%;
+    width: 20%;
+    border-left: 2px solid hwb(235 20% 70%);
+    border-right: 2px solid hwb(235 20% 70%);
+
+
+}
+
+section#internet{
+    position: absolute;
+    top: 5rem;
+    right: 10%;
+    width: 20%;
+    border-left: 2px solid hwb(235 20% 70%);
+    border-right: 2px solid hwb(235 20% 70%);
+
+
+}
+
+section h2{
+    margin: 5px;
+    background-color: hwb(235 20% 70%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
