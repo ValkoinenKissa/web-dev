@@ -1,0 +1,65 @@
+body {
+    background-color: #ffec92;
+    margin: 0;
+}
+
+h1 {
+    margin: 0
+}
+
+#main {
+    display: block;
+    width: 80%;
+    height: 640px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+section {
+    float: left;
+    width: 40%;
+    border: 2px solid #ffc229;
+    border-top:none;
+    margin: 5px;
+    background-color: yellow;
+}
+
+section h2 {
+    margin: 5px;
+    background-color: #ffc229;
+}
+
+
+article {
+    background-color: yellow;
+    float: left;
+    width: 40%;
+    border: 5px solid rgb(255, 111, 0);
+    border-top: none;
+    margin: 5px;
+}
+
+
+ h3 {
+    margin: 0px;
+    background-color: rgb(248, 110, 0);
+    padding-left: 2px ;
+     border: 1px solid rgb(248, 110, 0);
+     color: white;
+ }
+
+
+ p {
+    margin: 5px ;
+}
+
+ footer {
+     clear: both;
+ }
+
+ footer p {
+     margin-top: 20px;
+     font-size: 12px;
+     margin-left: 30px;
+ }

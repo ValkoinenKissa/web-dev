@@ -1,0 +1,107 @@
+
+body {
+    background-image: url("espacio.png");
+}
+
+
+* {
+    font-family: Arial, serif;
+
+}
+
+#principal {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#principal h1{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+}
+
+.lista {
+    background: #f864b4;
+    width: 20%;
+    height: 220px;
+    float: left;
+    padding: 15px;
+    margin: 7px;
+
+}
+
+.lista ul{
+    list-style: none;
+    padding-top: 30px;
+}
+
+.lista li{
+    padding: 3px;
+    color: white;
+    border-left: 1px solid white ;
+
+}
+
+.escorpio {
+    width: 70%;
+    height: 220px;
+    background-color: #5ed5b0;
+    padding: 15px;
+    float: left;
+    margin: 7px;
+
+
+}
+
+
+.escorpio p {
+    text-align: justify;
+}
+
+.escorpio h2{
+    color: white;
+    text-align: center;
+    padding-top:5px;
+}
+
+.libra {
+    width: 40%;
+    height: 220px;
+    background-color: #a6b8ff;
+    padding: 15px;
+    float: left;
+    margin: 7px;
+
+}
+
+.libra p {
+    text-align: justify;
+
+}
+
+.libra h3{
+    color: white;
+}
+
+.sagitario {
+    width: 50%;
+    height: 220px;
+    background-color: #ff7676;
+    padding: 15px;
+    float: left;
+    margin: 7px;
+
+}
+
+.sagitario p {
+    text-align: justify;
+
+}
+
+.sagitario h3{
+    color: white;
+
+}

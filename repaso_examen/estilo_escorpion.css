@@ -1,0 +1,34 @@
+#escorpion {
+    float: left;
+}
+
+#escorpion img {
+    width: 30px;
+}
+
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu  li{
+    float: right;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid orange;
+
+}
+
+#menu li a {
+    display: block;
+    width: 150px;
+    padding: 4px 2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    background-color: orange;
+    color: #ffffff;
+}
