@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos_ejercicio_form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>Encuentra empleo ya 100% Legitimo!</title>
+</head>
+<body>
+<h1>Encuentratuempleo.com</h1>
+
+
+<h2>Toma de datos</h2>
+
+
+<form action="https://aulavirtual33.educa.madrid.org" method="post">
+    <fieldset>
+        <legend>Introduce tus datos para que podamos encontrar el trabajo que mejor se adapte a ti</legend>
+        <div id="datos-generales">
+            <label for="nombre">Introduce tu nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellidos">Introduce tus apellidos</label>
+            <input type="text" name="apellidos" id="apellidos">
+            <label for="email">Introduce tu email</label>
+            <input type="email" name="email" id="email">
+            <label for="password">Introduce una contraseña</label>
+            <input type="password" name="password" id="password" placeholder="min 10 caracteres">
+            <label for="edad">Introduce tu edad</label>
+            <input type="number" name="edad" id="edad" min="16">
+            <label for="imagen">Sube tu foto (Solo archivos JPG)</label>
+            <input type="file" name="imagen" id="imagen" accept="image/*,.jpg">
+
+        </div>
+        <div id="datos-jornada">
+        <p>Tipo de jornada:</p>
+            <div>
+            <input type="checkbox" name="completa" id="completa">
+            <label for="completa">Trabajo a jornada completa</label>
+            </div>
+            <div>
+            <input type="checkbox" name="parcial" id="parcial">
+            <label for="parcial">Trabajo a jornada parcial</label>
+            </div>
+            <div>
+            <input type="checkbox" name="intensiva" id="intensiva">
+            <label for="intensiva">Trabajo a jornada intensiva</label>
+            </div>
+            <div>
+            <input type="checkbox" name="partida" id="partida">
+            <label for="partida">Trabajo a jornada partida</label>
+            </div>
+
+        </div>
+
+        <div id="carnets">
+
+                <div id="carnet-b">
+                    <p>¿Dispones del carnet de conducir?</p>
+                    <input type="radio" name="carnet-b" id="carnet-b-si">
+                    <label for="carnet-b-si">Si</label>
+                    <input type="radio" name="carnet-b" id="carnet-b-no">
+                    <label for="carnet-b-no">No</label>
+                </div>
+
+                <div id="permiso-alimentos">
+
+                <p>¿Tienes carnet de manipulador de alimentos?</p>
+                <input type="radio" name="carnet-alimentos" id="carnet-alimentos-si">
+
+                <label for="carnet-alimentos-si">Si</label>
+                <input type="radio" name="carnet-alimentos" id="carnet-alimentos-no">
+
+                <label for="carnet-alimentos-no">No</label>
+                </div>
+            </div>
+
+        <div id="botones">
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Cancelar">
+        </div>
+
+    </fieldset>
+
+</form>
+
+</body>
+</html>

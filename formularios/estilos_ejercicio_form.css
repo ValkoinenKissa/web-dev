@@ -1,0 +1,71 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+form{
+    width:1000px;
+    padding:16px;
+    border-radius:10px;
+    background-color:#ccc;
+}
+
+
+#datos-generales{
+    width: 300px;
+    height: 370px;
+    padding: 10px;
+}
+
+
+#datos-jornada{
+    width: 300px;
+    height: 200px;
+}
+
+#carnets {
+    width: 300px;
+    height: 230px;
+}
+
+
+label {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+
+}
+
+input {
+    display: inline-block;
+    float: left;
+}
+
+
+#datos-jornada input{
+    margin: 0.4rem;
+
+}
+
+#carnets p{
+    display: block;
+    float: left;
+}
+
+
+
+#carnets input {
+    margin: 0.4rem;
+    float: left;
+
+}
+
+#carnet-b {
+    height: 110px;
+}
+
+#botones {
+    margin-top: 16px;
+}
