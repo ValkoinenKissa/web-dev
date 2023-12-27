@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contrata tu linea</title>
+    <link rel="stylesheet" href="formulario_telefonia.css">
+</head>
+<body>
+<h1>Contratación de una linea movíl</h1>
+
+<form action="https://" method="post">
+    <div id="tarifas-form">
+    <fieldset>
+        <div>
+    <label for="usuario">Introduce tu nombre: </label>
+    <input type="text" name="usuario" id="usuario">
+        </div>
+        <div>
+        <label for="direccion">Introduce tu direccion postal: </label>
+        <input type="text" name="direccion" id="direccion">
+        </div>
+        <div>
+            <label for="banco">Introduce el numero de IBAN: </label>
+            <input type="text" name="banco" id="banco">
+        </div>
+        <div>
+            <label for="tarifas">Elige una tarifa: </label>
+            <select name="tarifas" id="tarifas">
+                <option value="">--Selecciona una opcion--></option>
+                    <option>Tarifa Joven</option>
+                    <option>Tarifa senior</option>
+                    <option>Tarifa plana superior</option>
+            </select>
+        </div>
+        <div class="sms">
+            <p>Aceptas el envio de notificaciones por sms?</p>
+            <label for="si">Si</label>
+            <input type="radio" name="notificaciones" id="si" checked>
+            <label for="no">No</label>
+            <input type="radio" name="notificaciones" id="no">
+        </div>
+        <div>
+            <input type="checkbox" name="privacidad" id="privacidad" required>
+            <label for="privacidad">Si, acepto que mis datos sean tratados según <a href="#">la ley de la AGPD 2011/23</a></label>
+        </div>
+
+        <div id="botones">
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Cancelar">
+        </div>
+    </fieldset>
+    </div>
+</form>
+</body>
+</html>

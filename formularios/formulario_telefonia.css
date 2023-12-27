@@ -1,0 +1,30 @@
+#tarifas-form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    margin: 5px;
+}
+
+fieldset {
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url("images/cerca-hermosos-detalles-fibra-optica.jpg");
+    background-repeat: no-repeat;
+}

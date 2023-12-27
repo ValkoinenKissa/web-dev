@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="formulario_contacto.css">
+</head>
+<body>
+<form action="https://" method="post">
+<div id="contact-form">
+    <h1>Formulario de contacto</h1>
+    <fieldset>
+        <div>
+        <label for="nombre">Introduce tu nombre: </label>
+        <input type="text" name="nombre" id="nombre" maxlength="150" placeholder="Escribe tu nombre">
+        </div>
+        <div>
+            <label for="edad">Introduce tu edad: </label>
+            <input type="number" name="edad" id="edad" min="18">
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="correo@empresa.com">
+        </div>
+
+        <div>
+            <label for="asunto">Elige una tarifa: </label>
+            <select name="asunto" id="asunto">
+                <option value="">--Selecciona una opcion--></option>
+                <option>Pedir presupuesto</option>
+                <option>Solicitar cita previa</option>
+                <option>Otros</option>
+            </select>
+        </div>
+
+        <div>
+            <p>¿Cómo nos ha conocido?</p>
+            <input type="checkbox" name="amigo" id="amigo">
+            <label for="amigo">Un amigo</label>
+            <input type="checkbox" name="buscador" id="buscador">
+            <label for="buscador">En un buscador Web</label>
+            <input type="checkbox" name="publicidad" id="publicidad">
+            <label for="publicidad">Publicidad</label>
+            <input type="checkbox" name="otros" id="otros">
+            <label for="otros">Otros</label>
+        </div>
+        <div id="campo-mensaje">
+            <label for="mensaje">Escribe tu mensaje</label>
+            <textarea id="mensaje">
+
+            </textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="privacidad" id="privacidad" required>
+            <label for="privacidad">He leido y acepto el <a href="#">aviso legal y la politica de privacidad.</a></label>
+
+        </div>
+
+        <div id="botones">
+            <input type="submit" value="Enviar formulario">
+        </div>
+    </fieldset>
+</div>
+</form>
+</body>
+</html>

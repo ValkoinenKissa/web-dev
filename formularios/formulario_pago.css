@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#info-contacto {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 670px;
+    height: 410px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+#campo-profesion {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 80px;
+}
+
+
+input[type="radio"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+
+
+#datos div{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#datos-pago{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 670px;
+    height: 335px;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+
+
+#datos-pago div{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#politica-privacidad {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 670px;
+    height: 70px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#contenedor-principal {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 700px;
+    height: 1070px;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+
+.required {
+    color: #e70707;
+    font-size: 15px;
+}
+
+input {
+    border-radius:5px;
+    height: 25px;
+}
+
+select[id ="tarjeta-tipo"]{
+    border-radius:5px;
+    height: 30px;
+    border: 2px solid black;
+
+}
+
+#metodo-preferido {
+    overflow-y: scroll;
+    border: 2px solid black;
+    border-radius:5px;
+}
+
+#caducidad {
+    width: 130px;
+    height: 30px;
+
+}
+
+#email {
+    width: 500px;
+}
+
+#botones {
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+button[type="submit"]{
+    background-color:orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 5px;
+    height: 35px;
+    width: 140px;
+    font-size: 12px;
+}
+
+button[type="reset"]{
+    background-color:white;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    height: 35px;
+    width: 140px;
+    font-size: 12px;
+}

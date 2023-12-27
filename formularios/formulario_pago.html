@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="formulario_pago.css">
+    <title>Formulario de pago</title>
+</head>
+<body>
+<div id="contenedor-principal">
+<h1>FORMULARIO DE PAGO</h1>
+<p><span class="required">(Los campos obligatorios se han marcado con *)</span></p>
+<form action="/pagoGoya" method="post">
+
+    <fieldset id="info-contacto">
+        <legend>Informacion de contacto</legend>
+
+        <fieldset id="campo-profesion">
+            <legend>Profesión</legend>
+            <div>
+                <input type="radio" name="profesion" id="profesor">
+                <label for="profesor">Profesor /a</label>
+            </div>
+            <div>
+                <input type="radio" name="profesion" id="estudiante">
+                <label for="estudiante">Estudiante</label>
+            </div>
+            <div>
+                <input type="radio" name="profesion" id="otro">
+                <label for="otro">Otro</label>
+            </div>
+        </fieldset>
+
+        <div id="datos">
+
+        <div>
+            <label for="nombre">Nombre<span class="required">*</span>: </label>
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+
+
+        <div>
+            <label for="email">Correo<span class="required">*</span>:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="phone">Número de teléfono<span class="required">*</span>:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required />
+        </div>
+
+        <div>
+            <label for="pass">Contraseña<span class="required">*</span>:</label>
+            <input type="password" id="pass" name="password" minlength="8" required />
+        </div>
+        </div>
+    </fieldset>
+    <fieldset id="datos-pago">
+        <legend>Información de pago</legend>
+        <div>
+            <label for="tarjeta-tipo">Tipo de tarjeta: </label>
+            <select name="tarjeta-tipo" id="tarjeta-tipo">
+                <option value="">Visa</option>
+                <option>MasterCard</option>
+                <option>American Express</option>
+                <option>JBC</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="card">Numero de tarjeta<span class="required">*</span>:</label>
+            <input type="number" name="card" id="card" required>
+
+        </div>
+        
+        <div>
+            <label for="caducidad">Fecha de caducidad<span class="required">*</span>:</label>
+            <input type="date" name="caducidad" id="caducidad" min="2023-12-31" required>
+        </div>
+
+        <div>
+            <label for="metodo-preferido">Método de pago:</label>
+            <select multiple name="metodo-preferido" id="metodo-preferido" size="3">
+                <option>Tarjeta de credito</option>
+                <option>Paypal</option>
+                <option>Bizum</option>
+                <option>Transferencia</option>
+            </select>
+        </div>
+
+    </fieldset>
+
+    <fieldset id="politica-privacidad">
+        <legend>Politica de privacidad</legend>
+        <div>
+            <input type="checkbox" name="privacidad" id="privacidad" required>
+            <label for="privacidad">He leído y acepto las Condiciones Generales de contratación y la politica de privacidad</label>
+        </div>
+        <div>
+            <input type="checkbox" name="newletters" id="newsletters">
+            <label for="newsletters">NO quiero recibir newsletters ni comunicaciones comerciales GOYAZON</label>
+        </div>
+    </fieldset>
+    <div id="botones">
+    <button type="submit">VALIDAR EL PAGO</button>
+    <button type="reset">CANCELAR</button>
+    </div>
+</form>
+</div>
+</body>
+</html>
