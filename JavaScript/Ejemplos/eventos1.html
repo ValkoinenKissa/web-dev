@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        ancho =window.innerWidth;
+        alto=windows.innerHeight;
+        */
+
+        /*
+        posicionX=window.screenX;
+        posicionY=window.screenY;
+
+         */
+
+        function saludar(){
+            alert("Aih payo, pero tu ha visto como vivimos??")
+        }
+        alert("LA ventana esta en " + posicionX + " y en la posicion" + posicionY)
+
+        function cambiarImagen(){
+            let imagen=document.getElementById()
+            rutaActual = imagen.getAttribute("src")
+            imagen.setAttribute("src", "img/")
+            imagen.setAttribute("alt", "perro")
+        }
+        function cambiarEstilo() {
+            let estilo = document.getElementById("Estilo1");
+            if (estilo.getAttribute("href") === "Estilo1.css") {
+                estilo.setAttribute("href", "Estilo2.css");
+            } else {
+                estilo.setAttribute("href", "Estilo1.css");
+            }
+        }
+    </script>
+    <link id="Estilo1" rel="stylesheet" href="Estilo1.css">
+</head>
+<body>
+<button id="changeimg" onclick="cambiarEstilo()">Cambiar estilo</button>
+
+<!--
+<button id="btnAccept" onclick="saludar()">Aceptar</button>
+<button id="btnAcceptx2" ondblclick="saludar()">Aceptar x 2</button>
+<button id="btmousedwn" onmousedown="saludar()">Aceptar hold</button>
+<button id="btnMover" onmousemove="saludar()">Aceptar con solo mover</button>
+<button id="btnOver" onmouseover="saludar()">Aceptar </button>
+
+<div>
+    <input type="text" name="gg" id="gg" onblur="alert('He perdido el foco :(')">
+    <input type="text" name="form1" id="form1" onfocus="alert('He recibido el foco!!!')">
+    <input type="text" name="form2" id="form2" onselect="alert('Contenido del input seleccionado!!!')">
+
+    -->
+</div>
+</body>
+</html>

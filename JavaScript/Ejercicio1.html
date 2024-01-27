@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Empezando con JS</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+    <script src="Ejercicio1.js"></script>
+</head>
+<body>
+<h1>EMPEZANDO CON JAVA SCRIPT</h1>
+<div id="div_texto">
+    <p id="texto_del_div" class="negrita cursivo">TEXTO DEL DIV</p>
+</div>
+<hr>
+<div id="div_input">
+    <label class="negrita" for="input_texto">Introduce un texto aquí</label>
+    <input type="text" name="texto" id="input_texto">
+</div>
+<hr>
+<div id="div_colors">
+    <label class="negrita" for="color_fondo">Selecciona color de fondo</label>
+    <input type="color" name="color_fondo" id="color_fondo" value="#000000">
+    <label class="negrita" for="color_borde">Selecciona color del borde</label>
+    <input type="color" name="color_borde" id="color_borde" value="#000000">
+    <label class="negrita" for="color_texto">Selecciona color del texto</label>
+    <input type="color" name="color_texto" id="color_texto" value="#000000">
+</div>
+<hr>
+<div id="botones">
+    <button id="cambiar_texto" onclick="cambiarTexto()">Cambiar Texto</button>
+    <button id="cambiar_fondo" onclick="cambiarFondo()">Cambiar color fondo</button>
+    <button id="cambiar_color_borde" onclick="cambiarBorde()">Cambiar color borde</button>
+    <button id="cambiar_color_text" onclick="cambiarColorTexto()">Cambiar color texto</button>
+</div>
+</body>
+</html>
