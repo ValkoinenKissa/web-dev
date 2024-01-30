@@ -1,19 +1,15 @@
 function cambiarTexto() {
-    var nuevoTexto = document.getElementById("input_texto").value;
-    document.getElementById("texto_del_div").innerText = nuevoTexto;
+    document.getElementById("texto_del_div").innerText = document.getElementById("input_texto").value;
 }
 
 function cambiarFondo() {
-    var nuevoColorFondo = document.getElementById("color_fondo").value;
-    document.getElementById("div_texto").style.backgroundColor = nuevoColorFondo;
+    document.getElementById("div_texto").style.backgroundColor = document.getElementById("color_fondo").value;
 }
 
 function cambiarBorde() {
-    var nuevoColorBorde = document.getElementById("color_borde").value;
-    document.getElementById("div_texto").style.borderColor = nuevoColorBorde;
+    document.getElementById("div_texto").style.borderColor = document.getElementById("color_borde").value;
 }
 
 function cambiarColorTexto() {
-    var nuevoColorTexto = document.getElementById("color_texto").value;
-    document.getElementById("texto_del_div").style.color = nuevoColorTexto;
+    document.getElementById("texto_del_div").style.color = document.getElementById("color_texto").value;
 }

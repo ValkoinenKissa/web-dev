@@ -5,18 +5,18 @@
 #principal {
     border: 2px solid black;
     width: 980px;
-    height: 150px;
+    height: 190px;
     padding: 20px;
     margin: 0 auto;
 }
 
 #principal button {
-    margin: 15px;
+    margin: 10px;
 }
 
 #resultado {
     border: 2px solid black;
-    margin-top: 25px;
+    margin-top: 15px;
     background-color: rgba(55, 220, 123, 0.98);
 
 }
