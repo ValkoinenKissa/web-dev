@@ -1,0 +1,101 @@
+#principal {
+    border: 2px solid black;
+    width: 480px;
+    padding: 10px;
+
+}
+
+#div-titulo {
+    text-align: center;
+    border: 1px solid black;
+    height: 20px;
+    width: 85%;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+h3 {
+    margin: 0;
+}
+
+#numero_par {
+    margin-top:27px!important;
+    text-align: center;
+    border: 1px solid black;
+    width: 85%;
+    background-color: #eb3333;
+    margin: 0 auto;
+}
+#numero_impar {
+    margin-top:21px!important;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+
+
+
+}
+
+#numero_primo {
+    margin-top:21px!important;
+    margin-top:21px;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+
+
+
+}
+
+#divisores {
+    margin-top:21px!important;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+hr {
+    height: 5px;
+    background-color: #eb3333;
+}
+
+#up {
+    font-size: 50px;
+    height: 60px;
+    color: #eb3333;
+    border-radius: 0px;
+    background-color: white;
+}
+
+#down {
+    font-size: 50px;
+    height: 60px;
+    color: #eb3333;
+    margin-left: 20px;
+    border-radius: 0px;
+    background-color: white;
+    margin-right: 15px;
+
+}
+
+#cuadro-resultado {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#ventana-resultado {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#ventana-calculo {
+    width: 100px;
+}
+
+#boton-calculo {
+    width: 150px;
+    margin-left: 15px;
+
+
+}
