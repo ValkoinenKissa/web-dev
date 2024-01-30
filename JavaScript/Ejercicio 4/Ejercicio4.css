@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    border: 2px solid black;
+    width: 980px;
+    height: 150px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#principal button {
+    margin: 15px;
+}
+
+#resultado {
+    border: 2px solid black;
+    margin-top: 25px;
+    background-color: rgba(55, 220, 123, 0.98);
+
+}
+
+#sub_resultado {
+    width: 550px;
+    margin: 0 auto;
+
+}
+
+#sub_resultado input {
+    width: 450px;
+    color: white;
+    background-color: darkgreen;
+}
+
+#numero_1 , #numero_2 {
+    color: white;
+    background-color: darkgreen;
+}
+
+h3 {
+    text-align: center;
+}
+

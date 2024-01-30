@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    border: 2px solid black;
+    height: 140px;
+    width: 580px;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+
+#principal input {
+    width: 230px;
+    background-color: orange;
+}
+
+#principal h3{
+    text-decoration: underline;
+}
+
+.negrita {
+    font-weight: bold;
+    font-size: 15px;
+}

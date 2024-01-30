@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="Ejercicio3.css">
+    <script src="Ejercicio3.js"></script>
+</head>
+<body>
+<div id="principal">
+    <h3>VALOR EN CONTROLES</h3>
+    <div>
+    <label for="caja_texto" class="negrita">Caja texto:</label>
+    <input type="text" name="texto" id="caja_texto">
+    </div>
+    <div>
+    <label for="caja_numero" class="negrita">Caja número:</label>
+    <input type="number" name="numero" id="caja_numero">
+    </div>
+    <div>
+    <label for="caja_pass" class="negrita">Caja password:</label>
+    <input type="password" name="password" id="caja_pass">
+    </div>
+    <div>
+    <label for="caja_fecha" class="negrita">Caja fecha</label>
+    <input type="date" name="fecha" id="caja_fecha">
+    </div>
+    <div>
+    <label for="caja_hora" class="negrita">Caja hora</label>
+    <input type="time" name="time" id="caja_hora">
+    </div>
+    <div>
+    <label for="caja_radio" class="negrita"></label>
+    <input type="radio" name="radio" id="caja_radio" checked>
+    </div>
+    <div>
+    <label for="checkmark" class="negrita">Caja check</label>
+    <input type="checkbox" name="check" id="checkmark">
+    </div>
+    <div>
+    <label for="check_select" class="negrita">Caja check: </label>
+    <select name="select" id="check_select">
+        <option value="">Opcion 3</option>
+        <option>Opcion 2</option>
+        <option>Opcion 1</option>
+        <option>Opcion 0</option>
+    </select>
+    </div>
+    <button id="capturar" onclick="capturarValores()">Capturar valores</button>
+
+</div>
+</body>
+</html>
