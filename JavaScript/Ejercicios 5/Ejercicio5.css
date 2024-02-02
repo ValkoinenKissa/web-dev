@@ -21,10 +21,10 @@ h3 {
 #numero_par {
     margin-top:27px!important;
     text-align: center;
-    border: 1px solid black;
     width: 85%;
-    background-color: #eb3333;
     margin: 0 auto;
+    background-color: #eb3333;
+    border: 2px solid black;
 }
 #numero_impar {
     margin-top:21px!important;
@@ -60,21 +60,25 @@ hr {
 }
 
 #up {
-    font-size: 50px;
-    height: 60px;
+    font-size: 35px;
+    height: 60%;
     color: #eb3333;
-    border-radius: 0px;
+    border-radius: 0;
     background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #down {
-    font-size: 50px;
-    height: 60px;
+    font-size: 35px;
     color: #eb3333;
-    margin-left: 20px;
-    border-radius: 0px;
+    margin-left: 13px;
+    border-radius: 0;
     background-color: white;
     margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 
 }
 

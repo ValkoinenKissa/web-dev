@@ -1,5 +1,48 @@
 let seleccionActual = 1;
 
+function  pintarOpcion(){
+    let posicion1 = document.getElementById("numero_par");
+    let posicion2 = document.getElementById("numero_impar");
+    let posicion3 = document.getElementById("numero_primo");
+    let posicion4 = document.getElementById("divisores");
+
+    posicion1.style.backgroundColor = "white";
+    posicion1.style.border = "none";
+
+    posicion2.style.backgroundColor = "white";
+    posicion2.style.border = "none";
+
+    posicion3.style.backgroundColor = "white";
+    posicion3.style.border = "none";
+
+    posicion4.style.backgroundColor = "white";
+    posicion4.style.border = "none";
+
+    switch (seleccionActual){
+        case 1:
+            posicion1.style.backgroundColor = "#eb3333";
+            posicion1.style.border = "2px solid black";
+
+        break;
+
+        case 2:
+            posicion2.style.backgroundColor = "#eb3333";
+            posicion2.style.border = "2px solid black";
+        break;
+
+        case 3:
+            posicion3.style.backgroundColor = "#eb3333";
+            posicion3.style.border = "2px solid black";
+        break;
+
+        case 4:
+            posicion4.style.backgroundColor = "#eb3333";
+            posicion4.style.border = "2px solid black";
+        break;
+    }
+
+
+}
 
 function navegarArriba(){
     if (seleccionActual > 1){
@@ -42,42 +85,42 @@ function obtenerDivisores(numero) {
 }
 
 function calculo(){
-    let num = document.getElementById("ventana-calculo").value
+    let num = parseInt(document.getElementById("ventana-calculo").value)
     switch (seleccionActual) {
         case 1:
             if (num % 2 === 0){
-                document.getElementById("resultado_operacion").value = "El numero introducido es par!!";
+                document.getElementById("resultado_operacion").value = "Es par!!";
             }
             else {
-                document.getElementById("resultado_operacion").value = "El numero introducido no es par..";
+                document.getElementById("resultado_operacion").value = "No es par..";
 
             }
             break;
 
         case 2:
             if (num % 2 !== 0){
-                document.getElementById("resultado_operacion").value = "El numero introducido no es par...";
+                document.getElementById("resultado_operacion").value = "No es par!!";
             }
             else {
-                document.getElementById("resultado_operacion").value = "El numero introducido no es par";
+                document.getElementById("resultado_operacion").value = "Es par..";
 
             }
             break;
 
         case 3:
             if (esPrimo(num)){
-                document.getElementById("resultado_operacion").value = "El numero introducido es primo!!";
+                document.getElementById("resultado_operacion").value = "Es primo!!";
             }
 
             else {
-                document.getElementById("resultado_operacion").value = "El numero introducido no es primo";
+                document.getElementById("resultado_operacion").value = "No es primo";
 
             }
             break;
 
         case 4:
             let divisores = obtenerDivisores(num)
-            document.getElementById("resultado_operacion").value = "Los divisores del numero intoducido son: " + divisores
+            document.getElementById("resultado_operacion").value = "Los divisores: " + divisores
 
     }
 }
