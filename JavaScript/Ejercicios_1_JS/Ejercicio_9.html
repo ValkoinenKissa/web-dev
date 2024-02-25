@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiniela</title>
+    <script>
+        for (let i = 0; i < 15; i++) {
+            let numero = Math.floor(Math.random() * 3) + 1;
+            let signo = numero;
+            if (numero === 3) {
+                signo = "X";
+            }
+            document.write(signo + "<br>")
+        }
+        let num1 = Math.floor(Math.random() * 4);
+        let num2 = Math.floor(Math.random() * 4);
+        if(num1 === 3){
+            num1 = "M";
+        } else if(num2 ===3 ){
+            num2 = "M"
+        }
+        document.write("<p>Partido 15:" + num1+"-"+num2 +"</p>")
+    </script>
+</head>
+<body>
+
+</body>
+</html>
