@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+<form action="#" method="post">
+    <p>
+        Me gusta:
+        <input type="checkbox" name="teatro" id="teatro"><label for="teatro">Teatro</label>
+        <input type="checkbox" name="cine" id="cine"><label for="cine">Cine</label>
+        <input type="checkbox" name="montana" id="montana"><label for="montana">Montaña</label>
+    </p>
+    <p>
+        <label for="color">Elige un color: </label><input type="color" name="color" id="color">
+    </p>
+    <p>
+        <label for="nivel">Indique su nivel: </label><input type="range" name="nivel" id="nivel" min="1" max="10"
+                                                            step="2">
+    </p>
+    <p>
+        <label for="ciudades">
+            Ciudad de nacimiento:
+        </label>
+        <select name="ciudades" id="ciudades">
+            <option value="madrid">Madrid</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="valencia">Valencia</option>
+            <option selected value="zamora">Zamora</option>
+            <option value="gijon">Gijon</option>
+        </select>
+    </p>
+    <p>
+        <label for="sugerencias">Escribe algo: </label>
+    </p>
+    <textarea name="sugerencias" id="sugerencias" cols="90" rows="4" placeholder="Escribe lo que quieras:"></textarea>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </p>
+
+</form>
+</body>
+</html>

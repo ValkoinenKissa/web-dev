@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejemplo uso de formularios</title>
+</head>
+<body>
+<form action="" method="post">
+    <p><label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre"></p>
+    <p><label for="dob">Año de nacimiento: </label><input type="number" name="ano_nacimiento" id="dob"
+    min="1950" max="2050" value="2000"></p>
+    <p>
+        Sexo:
+        <input type="radio" name="sexo" id="mucho" value="Mucho"><label for="mucho">Mucho</label>
+        <input type="radio" name="sexo" id="poco" value="Poco"><label for="poco">Poco</label>
+    </p>
+
+    <p><label for="passwd">Contraseña: </label><input type="password" name="contrasena" id="passwd"></p>
+    <p><label for="hour">Hora de entrada: </label><input type="time" name="hora" id="hour"></p>
+    <p><label for="colour">Elige un color: </label><input type="color" name="color" id="colour"></p>
+
+    <p>
+        Me gusta:
+        <input type="checkbox" name="teatro" id="teatro" value="teatro"><label for="teatro">Teatro</label>
+        <input type="checkbox" name="cine" id="cine" value="cine"><label for="cine">Cine</label>
+        <input type="checkbox" name="montana" id="montana" value="montana"><label for="montana">Montaña</label>
+        <input type="checkbox" name="videojuegos" id="videojuegos" value="videojuegos" checked>
+        <label for="videojuegos">Videojuegos</label>
+    </p>
+
+    <p>Ciudad de nacimiento:
+
+        <label for="ciudad"></label>
+        <select name="ciudad" id="ciudad">
+            <option selected value="madrid">Madrid</option>
+            <option value="valencia">Valencia</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="bilbao">Bilbao</option>
+        </select>
+
+    </p>
+
+    <input type="submit" value="Enviar!!">
+    <input type="reset" value="Borrar">
+    </form>
+
+</body>
+</html>
