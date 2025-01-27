@@ -1,0 +1,32 @@
+body {
+    background-color: #ffca33;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tipo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+.tipo2 {
+    color: red;
+    font-family: sans-serif;
+}
+
+.tipo3 {
+    font-family: monospace;
+    font-size: 20px;
+    color: #f6ff33;
+}
+
+.tipo4 {
+    font-family: cursive;
+    font-size: 20px;
+    color: #5bff33;
+
+
+}
