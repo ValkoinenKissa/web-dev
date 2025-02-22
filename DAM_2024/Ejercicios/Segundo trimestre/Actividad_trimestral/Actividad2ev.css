@@ -88,7 +88,7 @@ h1 {
     background-image: url("fondos/caballo.svg"), url("fondos/estrellas.png");
     background-position: bottom, center;
     background-repeat: repeat-x, repeat;
-    background-size: 43px;
+    background-size: 35px;
     border: 1px solid black;
     height: 210px;
     margin: 5px;
