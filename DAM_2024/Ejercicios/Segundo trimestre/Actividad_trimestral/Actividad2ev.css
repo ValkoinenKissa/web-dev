@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffebf0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#CONTENEDOR_PRINCIPAL {
+    background-image: url("fondos/corazon-2.svg"), url("fondos/corazon-1.svg");
+    background-position: right, left;
+    background-repeat: repeat-y;
+    background-size: 50px 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#CONTENEDOR_1 {
+    background-image: url("fondos/manchas.png");
+    background-size: 190px;
+    border: 1px solid black;
+    height: auto;
+    margin: 5px;
+
+}
+
+#CONTENEDOR_1 p {
+    color: white;
+    font-size: 9px;
+    width: 10%;
+    height: 15%;
+    margin: 0 auto;
+    padding: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#CONTENEDOR_2 {
+    background-image: url("fondos/fuego.svg"), url("fondos/fuego.svg"), url("fondos/tallos.jpg");
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: bottom left, bottom right, center;
+    background-size: 25px, 25px, 150px;
+    border: 1px solid black;
+    height: auto;
+    margin: 5px;
+}
+
+#CONTENEDOR_2 p {
+    color: #eec14b;
+    font-size: 9px;
+    width: 10%;
+    height: 15%;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#CONTENEDOR_3 {
+    background-image: url("fondos/ojo.svg"), url("fondos/hexagonos.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 300px, 160px;
+    border: 1px solid black;
+    height: auto;
+    margin: 5px;
+}
+
+#CONTENEDOR_3 p {
+    color: #81372d;
+    font-size: 9px;
+    width: 10%;
+    height: 15%;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#CONTENEDOR_4 {
+
+    background-image: url("fondos/caballo.svg"), url("fondos/estrellas.png");
+    background-position: bottom, center;
+    background-repeat: repeat-x, repeat;
+    background-size: 43px;
+    border: 1px solid black;
+    height: 210px;
+    margin: 5px;
+}
+
+#CONTENEDOR_4 p {
+    color: black;
+    text-shadow: rgba(181, 255, 164, 0.85) 1px 1px 1px;
+    font-size: 9px;
+    width: 10%;
+    height: 15%;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
