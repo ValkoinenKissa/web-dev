@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encuesta</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+</head>
+<body>
+
+	<h2>Cuestionario de ASIR</h2>
+	<form  name="formulario1" >
+  	<fieldset>
+	<legend>Datos personales</legend>
+	  Nombre:<br>
+	  <input type="text" name="nombre" ><br>
+	  Apellidos:<br>
+	  <input type="text" name="apellidos" ><br>
+	  DNI:<br>
+	  <input type="text" name="dni" ><br>
+	  Edad:<br>
+		<input type="text" name="edad" size="2"><br>
+	  Sexo:<br>
+		<select name="sexo">
+			<option value="M">Masculino</option>
+			<option value="F">Femenino</option>
+		</select>
+	</fieldset>
+	<fieldset>
+	<legend>Módulos favorito</legend>
+		<input type="radio" name="modulo" value="1">Redes<br>
+		<input type="radio" name="modulo" value="2" >FOL<br>
+		<input type="radio" name="modulo" value="3">Sistemas Operativo<br>
+		<input type="radio" name="modulo" value="4">Bases de Datos
+	</fieldset>
+	<fieldset>
+		<legend>Tu Curriculum</legend>
+		<textarea name="cv" rows="10" cols="50"></textarea>
+	</fieldset>
+	<br>
+	<input type="reset" value="Borrar formulario"> <input type="submit" value="Enviar">
+  </form>
+</div>	
+</body>
+</html>

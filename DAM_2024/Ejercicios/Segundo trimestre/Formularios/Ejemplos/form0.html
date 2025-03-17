@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta charset="utf-8">
+        <title>Ejemplo del uso de Formularios</title>
+    </head>
+<body>
+
+<form>
+  <p><label>Nombre:</label> <input type="text" name="nombre" value="Samuel"></p>
+  <p><label>Año de nacimiento:</label> 
+   <input type="number" name="year" min=1900 max=2050 value=2000></p>
+  <p><label>Sexo:</label>
+    <input type="radio" name="hm" value="1"> Mucho
+    <input type="radio" name="hm" value="2"> Poco
+ </p>
+ <p><label>Contraseña:</label><input type="password" name="pass"></p>
+ <p><label>Fecha de entrada:</label><input type="date" name="fecha"></p>
+ <p><label>Hora de entrada:</label><input type="time" name="hora"></p> 
+ <p>Elige un color: <input type="color" name="colorElegido">  
+ <p> Me gusta:
+	<input type="checkbox" name="gustos" value="teatro"> Teatro
+	<input type="checkbox" name="gustos" value="cine"> Cine
+	<input type="checkbox" name="gustos" value="campo"> Montaña
+    <input type="checkbox" name="gustos" value="videojuegos"> Videojuegos
+ </p>
+ <p>Ciudad de Nacimiento:
+  <select name="menu">
+	<option>Madrid</option>
+	<option>Valencia</option>
+	<option>Sevilla</option>
+	<option>Salamanca</option>
+	<option>Bilbao</option>
+   </select>   
+   </p>
+ 
+ <p>
+   <input type="submit" value="Enviar!!!!!!">
+   <input type="reset" value="Borrar">
+  </p>
+</form>
+ 
+</body>
+</html>

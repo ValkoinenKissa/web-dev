@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Imágenes de fondo múltiples </title>
+  
+  <style>
+    html {
+      background-image: url("./fondos/fuego.svg"), url("./fondos/fondo.png");
+      background-position: left,right;
+      background-repeat: repeat-y, repeat-y ;
+      
+	  /*El orden de las imágenes es de delante hacia atrás, es decir, la primera imagen de la lista está por encima de la segunda y así sucesivamente. El orden es importante pues si una imagen no tiene transparencia tapará las siguientes. */
+    }
+  </style>
+</head>
+
+<body>
+  <p>Este ejemplo tiene dos imágenes de fondo.</p>
+</body>
+</html>

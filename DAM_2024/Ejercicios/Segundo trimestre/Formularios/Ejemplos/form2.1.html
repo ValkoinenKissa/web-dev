@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta charset="utf-8">
+        <title>Ejemplo del uso de Formularios</title>
+    </head>
+<body>
+<form action="" method="get">
+  <p> Me gusta:
+			<input type="checkbox" name="gustos"> Teatro
+			<input type="checkbox" name="gustos"> Cine
+			<input type="checkbox" name="gustos"> Montaña
+ 
+  <p>Elige un color: <input type="color" name="colorElegido">
+  <p>Indique su nivel:<input type="range" name="rango" min="1" max="10">
+  <p>Ciudad de Nacimiento:
+  <select name="menu">
+			<option>Madrid</option>
+			<option>Valencia</option>
+			<option>Sevilla</option>
+			<option>Salamanca</option>
+			<option>Bilbao</option>
+   </select>   </p>
+	<p> Escribe algo:
+	<p><textarea name="texto" rows="4" cols="100">Escribe lo que quieras</textarea></p>
+	
+	<input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </p>
+</form>
+</body>
+</html>
