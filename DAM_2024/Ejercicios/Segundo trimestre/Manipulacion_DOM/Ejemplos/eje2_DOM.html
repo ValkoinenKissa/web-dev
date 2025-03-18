@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo DOM</title>
+<script>
+function mostrarGenero() {
+  // Accedemos a los campos radio usando document.miFormulario2.genero
+  var opciones = document.miFormulario2.genero;
+  var seleccionado = "";
+    for (var i = 0; i < opciones.length; i++) {
+    if (opciones[i].checked) {
+      seleccionado = opciones[i].value;
+      break;
+    }
+  }
+ 
+  if (seleccionado) {
+    alert("Has seleccionado: " + seleccionado);
+  } else {
+    alert("No has seleccionado ningún género.");
+  }
+}
+</script>
+</head>
+<body>
+
+
+  <form name="miFormulario2">
+  <p>Selecciona tu género:</p>
+  <input type="radio" name="genero" value="Masculino" /> Masculino<br />
+  <input type="radio" name="genero" value="Femenino" /> Femenino<br />
+  <button type="button" onclick="mostrarGenero()">Mostrar Género</button>
+
+</form>
+</body>
+</html>

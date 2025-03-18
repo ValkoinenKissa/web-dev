@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo DOM</title>
+<script>
+function mostrarPais() {
+  // Accedemos al valor del campo select usando document.miFormulario3.pais
+  var pais = document.miFormulario3.pais.value;
+  
+  if (pais) {
+    alert("El país seleccionado es: " + pais);
+  } else {
+    alert("No has seleccionado ningún país.");
+  }
+}
+
+</script>
+</head>
+<body>
+<form name="miFormulario3">
+  <label for="pais">Selecciona tu país:</label>
+  <select name="pais" id="pais">
+    <option value="">--Seleccionar--</option>
+    <option value="México">México</option>
+    <option value="España">España</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Colombia">Colombia</option>
+  </select>
+  <button type="button" onclick="mostrarPais()">Mostrar País</button>
+</form>
+
+</body>
+</html>

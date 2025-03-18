@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejemplo DOM</title>
+<script>
+function mostrarNombre() {
+  // Accedemos al valor del campo "nombre" usando el nombre del formulario y del campo
+  var nombre = document.miFormulario1.nombre.value;
+  alert("El nombre ingresado es: " + nombre);
+}
+</script>
+</head>
+<body>
+
+<form name="miFormulario1">
+  <label for="nombre">Nombre:</label>
+  <input type="text" name="nombre" id="nombre" />
+  <button type="button" onclick="mostrarNombre()">Mostrar Nombre</button>
+</form>
+</body>
+</html>
