@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+body {
+    background: rgba(255, 89, 0, 0.34);
+    padding: 20px;
+}
+
+#principal {
+    background-color: white;
+}
+
+.titulo {
+    text-align: left;
+    background-color: #ff5900;
+    padding: 2px;
+}
+
+.articulo {
+    padding: 20px;
+}
+
+.articulo p {
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.imagen {
+    float: right;
+}
