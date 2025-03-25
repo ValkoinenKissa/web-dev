@@ -1,15 +1,24 @@
+@font-face {
+    font-family: 'playball';
+    src: url(playball.woff);
+}
+
 * {
     margin: 0;
     padding: 0;
     text-align: justify;
+    font-family: playball, serif;
+    font-size: 20px;
 }
-
 body {
-    background: rgba(255, 89, 0, 0.34);
     padding: 20px;
+    background-color: #fdb49c;
 }
 
-#contenido{
+#contenedor-principal {
+    width: 1000px;
+    height: 350px;
+    margin: 0 auto;
     background-color: white;
 }
 
@@ -19,23 +28,51 @@ body {
     padding: 2px;
 }
 
-.articulo {
-    padding: 15px;
-    height: auto;
-    width: 65%;
-    float: left;
+.titulo h3 {
+    color: white;
+    padding: 3px;
 }
 
-.articulo p {
-    padding-top: 10px;
+.articulo {
+    margin: 10px 10px 10px 5px;
+    width: 70%;
+    float: left;
+    border-right: 4px solid #ff5900;
+    padding: 15px 25px 15px 15px;
+}
+
+.titulo-parrafo {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.parrafo_1 {
+    padding-top: 5px;
     margin-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.imagen img{
+    width: 150px;
+    padding: 10px 25px 20px 20px;
+    margin: 10px 25px 20px 20px;
+    display: block;
+
+}
+
+.imagen p {
+    display: inline-block;
+    position: relative;
+    left: 27%;
+    bottom: 30px;
 }
 
 .imagen {
     float: right;
-    padding: 20px;
 }
 
-.imagen img{
-    width: 150px;
-}
+
+
