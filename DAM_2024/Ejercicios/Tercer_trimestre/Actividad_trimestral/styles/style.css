@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+#main-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+#navbar {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #d1ffd1;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+#main-figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-figure h2 {
+    position: absolute;
+    font-family: 'Medula One',serif;
+    font-weight: 400;
+    font-size: 110px;
+    color: #fff;
+    line-height: .7;
+    text-align: center;
+    z-index: 10;
+}
+
+#main-figure img {
+    width: 75%;
+    height: auto;
+    border-radius: 30px;
+    transition: border-radius 0.2s;
+}
+
+#main-figure img:hover {
+    border-radius: 0;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #1a5482, #c0c459);
+    width: 80%;
+    margin: 30px auto;
+}
+
+article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article p {
+    margin: 25px 25px 25px 0;
+    text-align: justify;
+}
+
+article ol li{
+    margin: 35px;
+    text-align: justify;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+#mapa {
+    margin: 0 auto;
+}
+
+#mapa img {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    width: 600px;
+    height: 450px;
+    float: right;
+    padding: 15px;
+    border-radius: 30px;
+    transition: border-radius 0.2s;
+}
+
+iframe {
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 30px;
+    transition: border-radius 0.2s;
+}
+
+iframe:hover {
+    border-radius: 0;
+}
+
+#mapa img:hover {
+    border-radius: 0;
+
+}
+
+.descripcion {
+    clear: both;
+    font-style: italic;
+}
