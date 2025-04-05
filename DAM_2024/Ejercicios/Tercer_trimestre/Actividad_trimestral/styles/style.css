@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
     position: absolute;
     font-family: 'Medula One', serif;
     font-weight: 400;
-    font-size: 110px;
+    font-size: 5em;
     color: #fff;
     line-height: .7;
     text-align: center;
@@ -79,10 +79,18 @@ h1, h2, h3, h4 {
     border-radius: 0;
 }
 
-hr {
+.hr-index {
     border: 0;
     height: 2px;
     background: linear-gradient(to right, #1a5482, #c0c459);
+    width: 80%;
+    margin: 30px auto;
+}
+
+.hr-historia {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #ddaf61, #9a2929);
     width: 80%;
     margin: 30px auto;
 }
@@ -100,6 +108,11 @@ article p {
 
 article ol li {
     margin: 35px;
+    text-align: justify;
+}
+
+article ul li {
+    margin: 20px;
     text-align: justify;
 }
 
