@@ -14,7 +14,7 @@
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Quicksand', sans-serif;
     color: black;
 }
@@ -44,7 +44,7 @@ h1, h2, h3 {
     color: black;
 }
 
-a:hover {
+#navbar a:hover {
     background-color: #d1ffd1;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -59,7 +59,7 @@ a:hover {
 
 #main-figure h2 {
     position: absolute;
-    font-family: 'Medula One',serif;
+    font-family: 'Medula One', serif;
     font-weight: 400;
     font-size: 110px;
     color: #fff;
@@ -98,7 +98,7 @@ article p {
     text-align: justify;
 }
 
-article ol li{
+article ol li {
     margin: 35px;
     text-align: justify;
 }
@@ -109,27 +109,27 @@ article ol li{
 
 
 #mapa {
+    width: 80%;
     margin: 0 auto;
 }
 
 #mapa img {
     margin-top: 35px;
     margin-bottom: 25px;
-    width: 600px;
-    height: 450px;
-    float: right;
+    width: 40%;
+    height: 40%;
     padding: 15px;
     border-radius: 30px;
     transition: border-radius 0.2s;
 }
 
 iframe {
-    float: right;
     margin-top: 35px;
     margin-bottom: 25px;
     padding: 15px;
     border-radius: 30px;
     transition: border-radius 0.2s;
+    float: left;
 }
 
 iframe:hover {
@@ -144,4 +144,40 @@ iframe:hover {
 .descripcion {
     clear: both;
     font-style: italic;
+}
+
+footer {
+    background-color: #141609;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.pie-pagina {
+    padding: 50px;
+}
+
+.pie-pagina h3 {
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+
+.curso {
+    background-color: #1c2026;
+    padding: 10px 10px 10px 50px;
+    color: white;
+}
+
+.nombre {
+    float: left;
+}
+
+.github {
+    float: right;
+    position: relative;
+    bottom: 1em;
+}
+
+.github img {
+    width: 50px;
 }
