@@ -73,6 +73,7 @@ h1, h2, h3, h4 {
     height: auto;
     border-radius: 30px;
     transition: border-radius 0.2s;
+    filter: brightness(80%) contrast(90%); /*Filtro para oscurecer un poco la imagen*/
 }
 
 #main-figure img:hover {
@@ -241,4 +242,27 @@ td {
     background: linear-gradient(to right, #496113, #15a09c);
     width: 80%;
     margin: 30px auto;
+}
+
+.hr-vida {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #c2855e, #48697c);
+    width: 80%;
+    margin: 30px auto;
+}
+
+li {
+    text-align: justify;
+}
+
+#comentario {
+    width: 80%;
+    border-left: 2px solid gray;
+}
+
+#comentario p {
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
 }
