@@ -47,8 +47,8 @@ h1, h2, h3, h4 {
 #navbar a:hover {
     background-color: #d1ffd1;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /*Sombreado botones menu*/
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; /*Transicion de tiempo para animacion*/
 }
 
 #main-figure {
@@ -133,7 +133,7 @@ article ul li {
     height: 40%;
     padding: 15px;
     border-radius: 30px;
-    transition: border-radius 0.2s;
+    transition: border-radius 0.2s; /* Transicion para que la animacion del hoover sea suave*/
 }
 
 iframe {
@@ -193,4 +193,52 @@ footer {
 
 .github img {
     width: 50px;
+}
+
+table {
+    padding: 10px;
+    border-collapse: collapse; /* Hace que los bordes se unan */
+    border-spacing: 0;
+
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+}
+
+/* Estilos para la última columna */
+
+tr > td:last-child {
+    text-align: left;
+}
+
+/* Estilos para la primera columna */
+
+tr > td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
+
+#contenedor-tabla {
+    margin: 15px;
+}
+
+td {
+    border-top: 1px solid #d3d3d3;
+}
+
+.hr-clima {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #496113, #15a09c);
+    width: 80%;
+    margin: 30px auto;
 }
