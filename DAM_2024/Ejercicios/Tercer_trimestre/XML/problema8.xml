@@ -1,0 +1,36 @@
+<!-- que esta mal de este ejercicio??? -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+  <!ELEMENT inventores>
+  <!ELEMENT inventor EMPTY>
+  <!ATTLIST inventor invento CDATA #REQUIRED>
+  <!ATTLIST inventor nombre ID #REQUIRED>
+]>
+
+<inventores>
+  <inventor nombre="Robert Adler" invento="Mando a distancia" />
+  <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+  <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+  <inventor invento="Fuego" />
+</inventores>
+
+
+solución:
+La definición del elemento <inventores> no es correcta puesto que no incluye el contenido.Para corregirlo, habría que definir el contenido de <inventores>.
+Al último elemento <inventor> le falta el atributo nombre,Para corregirlo, habría que decir que el atributo nombre no es obligatorio.
+Un atributo de tipo ID no puede contener espacios.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventores [
+  <!ELEMENT inventores (inventor*)>
+  <!ELEMENT inventor EMPTY>
+  <!ATTLIST inventor invento CDATA #REQUIRED>
+  <!ATTLIST inventor nombre CDATA  #IMPLIED>
+]>
+
+<inventores>
+  <inventor nombre="Robert Adler" invento="Mando a distancia" />
+  <inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
+  <inventor nombre="Josephine Garis Cochran" invento="Lavaplatos" />
+  <inventor invento="Fuego" />
+</inventores>

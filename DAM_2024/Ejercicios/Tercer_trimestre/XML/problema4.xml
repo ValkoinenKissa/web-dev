@@ -1,0 +1,32 @@
+<!-- que esta mal de este ejercicio??? -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colores [
+  <!ELEMENT colores (color*)>
+  <!ELEMENT color (#PCDATA)>
+]>
+
+<colores>
+  <color>azul marino</color>
+  negro
+  <color>amarillo</color>
+</colores>
+
+
+solución:
+El elemento <colores> debería contener únicamente elementos <color>, pero no texto sin etiquetas.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colores [
+  <!ELEMENT colores (color*)>
+  <!ELEMENT color (#PCDATA)>
+]>
+
+<colores>
+  <color>azul marino</color>
+  <color>negro</color>
+  <color>amarillo</color>
+</colores>
+
+<numeros>
+  25
+</numeros>
