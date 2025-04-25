@@ -1,5 +1,5 @@
-<!-- que esta mal de este ejercicio??? -->
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- que esta mal de este ejercicio??? -->
 <deportistas>
   <deportista>
     <deporte Atletismo />
@@ -11,8 +11,8 @@
 </deportistas>
 
 
-solución:
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- solución: -->
 <deportistas>
   <deportista>
     <deporte nombre="Atletismo" />
