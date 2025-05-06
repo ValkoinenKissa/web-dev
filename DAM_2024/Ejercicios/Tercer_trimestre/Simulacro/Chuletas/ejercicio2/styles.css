@@ -45,11 +45,6 @@ select {
     width: auto;
 }
 
-.form-check label {
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
-}
-
 .form-group input[type=radio] {
     float: left;
     width: auto;
@@ -57,7 +52,7 @@ select {
 
 .form-check {
     color: #9f9f9f;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }
 
