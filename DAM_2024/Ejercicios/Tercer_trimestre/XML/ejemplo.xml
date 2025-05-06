@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<empresa>
+    <empleado id="E001">
+        <nombre>Ana Martínez</nombre>
+        <edad>29</edad>
+        <departamento>Recursos Humanos</departamento>
+        <activo>true</activo>
+    </empleado>
+    <empleado id="E002">
+        <nombre>Javier López</nombre>
+        <edad>35</edad>
+        <departamento>Desarrollo</departamento>
+        <activo>false</activo>
+    </empleado>
+</empresa>
