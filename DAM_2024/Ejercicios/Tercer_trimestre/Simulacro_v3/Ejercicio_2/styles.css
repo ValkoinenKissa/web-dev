@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-container {
+    width: auto;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.form-group label{
+    display: block;
+    padding: 0.70em 0 0.70em 0;
+    width: 50%;
+}
+
+.form-group input {
+    display: block;
+    width: 50%;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    border: 0.5px solid gainsboro;
+}
+
+#pais {
+    display: block;
+        width: 52%;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    border: 0.5px solid gainsboro;
+}
+
+#mensaje {
+    display: block;
+    border-radius: 0.5em;
+        width: 50%;
+    padding: 0.5em;
+    border: 0.5px solid gainsboro;
+}
+
+.form-group-form-check {
+    padding: auto;
+    width: 50%;
+    margin-top: 1em;
+    margin-top: 2em;
+
+}
+
+.form-check {
+    padding: auto;
+    width: auto;
+}
+
+.form-check label {
+    display: block;
+}
+
+.form-group-sex {
+    margin-top: 1em;
+    margin-top: 2em;
+
+}
+
+.form-group-sex label {
+    display: block;
+    padding: 0.25em;
+}
+
+.form-group-sex input {
+    float: left;
+    padding: 1em;
+}
+
+input[type="submit"]{
+    padding: 1em;
+    background-color: #4db051;
+    color: white;
+    width: 53%;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-top: 2em;
+}
